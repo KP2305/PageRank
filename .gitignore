@@ -1,0 +1,8 @@
+# Raw data (too large for Git; see README for download instructions)
+data/*.txt
+data/*.gz
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
