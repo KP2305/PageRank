@@ -1,0 +1,22 @@
+=== FULL GRAPH ===
+Rows (edges): 2,312,497
+Columns: ['from', 'to']
+Column types: {'from': 'int64', 'to': 'int64'}
+Missing values per column: {'from': 0, 'to': 0}
+Distinct nodes appearing in the file: 281,903
+Node ID range: 1 to 281903
+Duplicate edges: 0
+Self-loops: 0
+Max out-degree: 255
+Max in-degree: 38,606
+Dangling pages in full graph: 172 (0.1%)
+
+=== SUBGRAPH (rule: bfs, n = 3000) ===
+Nodes n: 3,000
+Edges m: 32,667
+Largest entry of A (must be 1): 1
+Dangling pages (zero columns): 251 (8.4%)
+Pages with no in-links (zero rows): 0
+Max out-degree: 107   Max in-degree: 895
+Mean out-degree: 10.89
+Matrix density: 0.00363
